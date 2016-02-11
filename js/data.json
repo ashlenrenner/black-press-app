@@ -226,8 +226,38 @@
 "storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0&p_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0",
 "storyTitle": "The Cholera"
 },
-
-
+{
+"name": "Charleston Advocate",
+"startDate": "May 11, 1867",
+"endDate": " May 11, 1867",
+"numOfIssues": 1,
+"location": "Charleston, South Carolina",
+"editor": 	"Timothy Willard Lewis and Alonzo Webster",
+    "images": {
+      "editorPic": "unknown",
+      "generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025784/1867-02-23/ed-1/seq-1/thumbnail.jpg"
+          },
+"imgCaption": "Two Methodist clergymen, Timothy Willard Lewis and Alonzo Webster, established the Charleston Advocate with financial support from Boston-based philanthropist Lee Claflin and his son, Massachusetts Governor William Claflin.",
+"bio": "The Advocate combined international and national news, domestic advice, marriage and obituary notices, and news of the South Carolina Conference of the Methodist Episcopal Church and South Carolina Republican Party.",
+"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0&p_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0",
+"storyTitle": "An Illustration of the way in which the Colored People are going to Vote"
+},
+{
+"name": "Free Press",
+"startDate": "April 05, 1868",
+"endDate": "April 11, 1868",
+"numOfIssues": 2,
+"location": "Charleston, South Carolina",
+"editor": 	"Timothy Hurley",
+    "images": {
+      "editorPic": "unknown",
+      "generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025795/1868-04-05/ed-1/seq-1/thumbnail.jpg"
+          },
+"imgCaption": "Timothy Hurley, formerly with the Charleston South Carolina Leader, established the Free Press in 1868. He chose as its motto: “Justice to all men, regardless of race, color, or previous condition.” ",
+"bio": "The Charleston Free Press, a “weekly journal devoted to the interests of the Republic Party of South Carolina,” was one of a number of short-lived Republican newspapers published in the Low Country region of South Carolina during the Reconstruction era.Strictly speaking, the Free Press was not an African American newspaper, but it clearly sought to influence African American voters.",
+"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0&p_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0",
+"storyTitle": "Course of the First Negro Nominated to Congress"
+},
 
 {
 "name": "",
@@ -244,6 +274,6 @@
 "bio": "",
 "storyLink": "",
 "storyTitle": ""
-},
+}
 
-  ];
+  ]
