@@ -1,7 +1,7 @@
 var app = angular.module('myApp', []);
 
 app.controller('BaseController', ['$http', function($http) {
-
+//ajax request from data.json
     this.papers = [];
     var _this = this;
     $http.get('/js/data.json')
@@ -12,11 +12,14 @@ app.controller('BaseController', ['$http', function($http) {
     .error(function(msg){
       console.log("This request failed. \n" + msg)
     });
-
+    this.panelInfo = true;
+    this.name = "";
+//toggle commands for info panel
     this.panelInfo = function(paperInfo){
       this.name = paperInfo;
 
       for (var i = 0; i < this.data.length; i++){
+        console.log(i);
         if (paperInfo == this.data[i].name){
           this.currentPaper = this.data[i];
           var paperInfo = "";
