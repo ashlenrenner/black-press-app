@@ -1,279 +1,426 @@
-[
-  {
-  "name": "Freedom's Journal",
-  "startDate": "March 16, 1827",
-  "endDate": "March 28, 1829",
-  "numOfIssues": 103,
-  "location": "New York, New York",
-  "editor": 	"John Russwurm and Samuel Cornish",
-      "images": {
-        "editorPic": "http://www.nathanielturner.com/images/New_Folder/freejour.jpg",
-        "generalPic": "http://www.blackpast.org/files/blackpast_images/Freedom_s_Journal.jpg"
-            },
-  "imgCaption": "John Russwurm and Samuel Cornish founded the first African American newspaper in the U.S.",
-  "bio": "Freedom's Journal was the first newspaper owned and operated by African Americans published in the U.S. Established the same year slavery was abolished, The Freedom's Journal served to counter the racist mainstream media.",
-  "storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=J49C45SCMTQ1NDYxNjQxNy4zMDQ1NzA6MToxMzoxNTIuMjMuNDkuMTA0&f_docref=v2:132FB88A16969E1C@EANX-132FC89EEDB64928@2388432-132FC0E68E066888@0&p_docref=v2:132FB88A16969E1C@EANX-132FC89EEDB64928@2388432-132FC0E68E066888@0",
-  "storyTitle": "Nameplate"
+[{
+		"name": "Freedom's Journal",
+		"startDate": "March 16, 1827",
+		"endDate": "March 28, 1829",
+		"numOfIssues": 103,
+		"location": "New York, New York",
+		"editor": "John Russwurm and Samuel Cornish",
+		"images": {
+			"editorPic": "http://www.nathanielturner.com/images/New_Folder/freejour.jpg",
+			"generalPic": "http://www.blackpast.org/files/blackpast_images/Freedom_s_Journal.jpg"
+		},
+		"imgCaption": "John Russwurm and Samuel Cornish founded the first African American newspaper in the U.S.",
+		"bio": "Freedom's Journal was the first newspaper owned and operated by African Americans published in the U.S. Established the same year slavery was abolished, The Freedom's Journal served to counter the racist mainstream media.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=J49C45SCMTQ1NDYxNjQxNy4zMDQ1NzA6MToxMzoxNTIuMjMuNDkuMTA0&f_docref=v2:132FB88A16969E1C@EANX-132FC89EEDB64928@2388432-132FC0E68E066888@0&p_docref=v2:132FB88A16969E1C@EANX-132FC89EEDB64928@2388432-132FC0E68E066888@0",
+		"storyTitle": "Nameplate"
 
-},
-{
-"name": "Rights of All",
-"startDate": "May 29, 1829",
-"endDate": "October 09, 1829",
-"numOfIssues": 5,
-"location": "New York, New York",
-"editor": 	"Samuel Cornish",
-    "images": {
-      "editorPic": "http://www.blackpast.org/files/blackpast_images/Samuel_Cornish_photo.jpg",
-      "generalPic": ""
-          },
-"imgCaption": "Samuel Cornish co-founded Freedom's Journal, the first African American newspaper in the U.S. He published The Rights of All as a replacement after Editor John Russwurm emigrated to Liberia.",
-"bio": "The Rights of All was an attempt to revive the African American newspaper in New York, however the paper was short-lived, only lasting five issues.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B022C2E1C6B698@EANX-12BF1DA106503218@2389237-12BF1DA10D9A96F8@0&p_docref=v2:12B022C2E1C6B698@EANX-12BF1DA106503218@2389237-12BF1DA10D9A96F8@0",
-"storyTitle": "From the Journal of the Times"
+	}, {
+		"name": "Rights of All",
+		"startDate": "May 29, 1829",
+		"endDate": "October 09, 1829",
+		"numOfIssues": 5,
+		"location": "New York, New York",
+		"editor": "Samuel Cornish",
+		"images": {
+			"editorPic": "http://www.blackpast.org/files/blackpast_images/Samuel_Cornish_photo.jpg",
+			"generalPic": ""
+		},
+		"imgCaption": "Samuel Cornish co-founded Freedom's Journal, the first African American newspaper in the U.S. He published The Rights of All as a replacement after Editor John Russwurm emigrated to Liberia.",
+		"bio": "The Rights of All was an attempt to revive the African American newspaper in New York, however the paper was short-lived, only lasting five issues.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B022C2E1C6B698@EANX-12BF1DA106503218@2389237-12BF1DA10D9A96F8@0&p_docref=v2:12B022C2E1C6B698@EANX-12BF1DA106503218@2389237-12BF1DA10D9A96F8@0",
+		"storyTitle": "From the Journal of the Times"
 
-},
-{
-"name": "Northern Star and Freeman's Advocate",
-"startDate": "February 03, 1842",
-"endDate": " January 02, 1843",
-"numOfIssues": 13,
-"location": "Albany, New York",
-"editor": 	"Stephen Myers",
-    "images": {
-      "editorPic": "http://undergroundrailroadhistory.org/wp-content/uploads2/2010/06/smeyers.jpg",
-      "generalPic": "http://undergroundrailroadhistory.org/wp-content/uploads2/2010/06/nstar.jpg"
-          },
-"imgCaption": "Stephen Myers was one of the most important leaders of the underground railroad movement in Albany. Born in 1800 in Rensselaer county as a slave, Myers was freed at eighteen and became a leading spokesperson for the anti-slavery movement. ",
-"bio": "The Northern Star vehicle for the local free Black community for social and economic betterment and to advocate for the rights of Black citizens. It also attacked the institution of slavery.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B02274CE22BA88@EANX-12BF1D9A27DFDED8@2393870-12BF1D9A2F522A90@0&p_docref=v2:12B02274CE22BA88@EANX-12BF1D9A27DFDED8@2393870-12BF1D9A31E3D5D8@1",
-"storyTitle": "A Sterling Truth"
+	}, {
+		"name": "Northern Star and Freeman's Advocate",
+		"startDate": "February 03, 1842",
+		"endDate": " January 02, 1843",
+		"numOfIssues": 13,
+		"location": "Albany, New York",
+		"editor": "Stephen Myers",
+		"images": {
+			"editorPic": "http://undergroundrailroadhistory.org/wp-content/uploads2/2010/06/smeyers.jpg",
+			"generalPic": "http://undergroundrailroadhistory.org/wp-content/uploads2/2010/06/nstar.jpg"
+		},
+		"imgCaption": "Stephen Myers was one of the most important leaders of the underground railroad movement in Albany. Born in 1800 in Rensselaer county as a slave, Myers was freed at eighteen and became a leading spokesperson for the anti-slavery movement. ",
+		"bio": "The Northern Star vehicle for the local free Black community for social and economic betterment and to advocate for the rights of Black citizens. It also attacked the institution of slavery.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B02274CE22BA88@EANX-12BF1D9A27DFDED8@2393870-12BF1D9A2F522A90@0&p_docref=v2:12B02274CE22BA88@EANX-12BF1D9A27DFDED8@2393870-12BF1D9A31E3D5D8@1",
+		"storyTitle": "A Sterling Truth"
 
-},
-{
-"name": "North Star",
-"startDate": "December 03, 1847",
-"endDate": "February 17, 1860",
-"numOfIssues": 237,
-"location": "Rochester, New York",
-"editor": 	"Frederick Douglass",
-    "images": {
-      "editorPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Frederick_Douglass_portrait.jpg/800px-Frederick_Douglass_portrait.jpg",
-      "generalPic": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/NorthStarfrontpage.jpg/170px-NorthStarfrontpage.jpg"
-          },
-"imgCaption": "After escaping from slavery in Maryland, Frederick Douglass became a national leader of the abolitionist movement. Douglass was first inspired to publish the North Star after subscribing to The Liberator, a weekly newspaper published by William Lloyd Garrison. ",
-"bio": "North Star was an anti-slavery newspaper published by abolitionist Frederick Douglass. Douglass was determined to begin an African-American newspaper that would engage the anti-slavery movement politically.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:11BE9340B7A005AB@EANX-11D0A35EEBD9A1B8@2395999-11D0A35EFA2F8DB8@0&p_docref=v2:11BE9340B7A005AB@EANX-11D0A35EEBD9A1B8@2395999-11D0A35EFA2F8DB8@0",
-"storyTitle": "Reformers by Wandell Phillips"
-},
-{
-"name": "New Orleans Daily Creole",
-"startDate": "July 01, 1856",
-"endDate": "December 31, 1856",
-"numOfIssues": 155,
-"location": "New Orleans, Louisiana",
-"editor": 	"unknown",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://medianola.org/uploads/medium/Image2-1380601213.jpg"
-          },
-"imgCaption": "unknown",
-"bio": "The New Orleans Daily Creole was the first daily newspaper owned and operated by African Americans in New Orleans.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:11B849020C1891B3@EANX-11B95CB9F4CA57E0@2399163-11B86D13B9F61E98@0&p_docref=v2:11B849020C1891B3@EANX-11B95CB9F4CA57E0@2399163-11B86D13B9F61E98@0-11FAA698F55BF55C@No%20Headline",
-"storyTitle": "Legislative Acts/Legal Proceedings"
-},
-{
-"name": "Aliened American",
-"startDate": "April 09, 1853",
-"endDate": "April 09, 1853",
-"numOfIssues": 1,
-"location": "Cleveland, Ohio",
-"editor": 	"William Howard Day",
-    "images": {
-      "editorPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/William-howard-day.jpg/220px-William-howard-day.jpg",
-      "generalPic": "http://research.udmercy.edu/images/php/tn_image.php?width=800&img=http://research.udmercy.edu/digital_collections/baa/14067edi(apr9,1853)(page1).jpg"
-          },
-"imgCaption": "William Howard Day was an abolitionist, editor, publisher, printer, teacher, lecturer, civic leader and clergyman who devoted his life to improving the conditions of his fellow African-Americans.",
-"bio": "Aliened American was Cleveland's first black newspaper.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B97739D2E2CEF0@EANX-12CC877BA9ECE130@2397953-12CC2D34335FDB00@0&p_docref=v2:12B97739D2E2CEF0@EANX-12CC877BA9ECE130@2397953-12CC2D34335FDB00@0",
-"storyTitle": "Ohio State"
-},
-{
-"name": "Mirror of the Times",
-"startDate": "December 12, 1857",
-"endDate": "December 12, 1857",
-"numOfIssues": 1,
-"location": "San Francisco, California",
-"editor": 	"unknown",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAXyIXjCqpDpLr7IXkjqVoQQsBfKhHV-FtQqQIi2JBHIuYW4bX"
-          },
-"imgCaption": "unknown",
-"bio": "Mirror of the Times was California's first black newspaper.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C614F5EA3730@EANX-12CC80B600CA9748@2399661-12CBE6DA63EF1CA8@0&p_docref=v2:12B7C614F5EA3730@EANX-12CC80B600CA9748@2399661-12CBE6DA63EF1CA8@0",
-"storyTitle": "The Political Wrongs Inflicted by the American Government Upon its Colored Citizens"
-},
-{
-"name": "Black Republican",
-"startDate": "April 15, 1865",
-"endDate": "May 20, 1865",
-"numOfIssues": 5,
-"location": "New Orleans, Louisiana",
-"editor": 	"unknown",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://blog.genealogybank.com/wp-content/uploads/2012/02/black-republican-newspaper-0415-1865-black-slavery.png"
-          },
-"imgCaption": "unknown",
-"bio": "Black Republican was a newspaper that promoted African-American polotics, literature, art and promoted literacy.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12EFC46496A73990@EANX-12F12F5B22C07048@2402342-12EFCD20D6214C68@0&p_docref=v2:12EFC46496A73990@EANX-12F12F5B22C07048@2402342-12EFCD20D6214C68@0",
-"storyTitle": "Bloody Chapter of Guerrilla Life in Arkansas"
-},
-{
-"name": "L'Union",
-"startDate": "September 27, 1862",
-"endDate": " July 19, 1864",
-"numOfIssues": 98,
-"location": "New Orleans, Louisiana",
-"editor": 	"Paul Trévigne",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
-          },
-"imgCaption": "Paul Trévigne was part of the free people of color community in Louisiana that protested racial injustice before the Civil War and helped establish Republican politics in the state after 1865.",
-"bio": "L'Union was founded and circulated as a biweekly and tri-weekly. Published primarily in French, the paper ran a few issues in English beginning in 1863. ",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B8668E0EB23CD0@EANX-12CC4C75ECF0C2C0@2401411-12CC2CC259330CC0@0&p_docref=v2:12B8668E0EB23CD0@EANX-12CC4C75ECF0C2C0@2401411-12CC2CC259330CC0@0",
-"storyTitle": "L'esclavage"
-},
-{
-"name": "New Orleans Tribune",
-"startDate": "July 21, 1864",
-"endDate": " February 28, 1869",
-"numOfIssues": 691,
-"location": "New Orleans, Louisiana",
-"editor": 	"Charles Louise Roudanez",
-    "images": {
-      "editorPic": "http://www.blackpast.org/files/blackpast_images/harles_Roudanez__NYPL_Photo_Digital_Library_.jpg",
-      "generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
-          },
-"imgCaption": "When the Union army took New Orleans in 1862 during the Civil War, Roudanez saw that the time was right to demand equality for free men of color. He started the militant Republican journal, L’Union, published in French and edited by Paul Trevigne. It was the first black newspaper to be published in Louisiana. When L’Union failed in 1864 from lack of support, Roudanez established a new journal called La Tribune de la Nouvelle Orléans (The New Orleans Tribune). ",
-"bio": " The New Orleans Tribune was the first African American daily newspaper in the United States. Started in 1864 by Charles Louise Roudanez the Tribune was notable in that it was bilingual.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B3C01E490E6BA0@EANX-12BC6E8AD45FBE78@2402079-12BBC74193F851E8@0&p_docref=v2:12B3C01E490E6BA0@EANX-12BC6E8AD45FBE78@2402079-12BBC74193F851E8@0",
-"storyTitle": "Official Report on the Freedmen"
-},
-{
-"name": "Elevator",
-"startDate": "May 05, 1865",
-"endDate": "June 11, 1898",
-"numOfIssues": 274,
-"location": "San Francisco, California",
-"editor": 	"Philip Alexander Bell",
-    "images": {
-      "editorPic": "http://www.blackpast.org/files/blackpast_images/bell_philip.jpg",
-      "generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
-          },
-"imgCaption": "After migrating to San Francisco, California in 1860, Bell maintained his connections with important abolition leaders such as Garrison and Frederick Douglass by reporting on black political and economic opportunities in the West.",
-"bio": "The Elevator demanded California legislators approve the proposed Reconstruction-era constitutional amendments acknowledging black citizenship and suffrage rights.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B2891B22FC96B8@EANX-12C8B86AE9FA8948@2402362-12C8B86AF5D13CA8@0&p_docref=v2:12B2891B22FC96B8@EANX-12C8B86AE9FA8948@2402362-12C8B86AF5D13CA8@0",
-"storyTitle": "Humiliation of South Carolina"
-},
-{
-"name": "Colored American",
-"startDate": "December 30, 1865",
-"endDate": "January 13, 1866",
-"numOfIssues": 3,
-"location": "Augusta, Georgia",
-"editor": 	"unknown",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": ""
-          },
-"imgCaption": "unknown",
-"bio": "One of the first African-American newspapers to be established in Georgia.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C5AD9503CA90@EANX-12CC88154D689248@2402601-12CBE7DE3190F700@0&p_docref=v2:12B7C5AD9503CA90@EANX-12CC88154D689248@2402601-12CBE7DE3190F700@0",
-"storyTitle": "Terrible and Swift Justice"
-},
-{
-"name": "Loyal Georgian",
-"startDate": "January 20, 1866",
-"endDate": "February 15, 1868",
-"numOfIssues": 16,
-"location": "Augusta, Georgia",
-"editor": 	"unknown",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://hd.housedivided.dickinson.edu/files/images/HD_NwspprH650121p036c.preview.jpg"
-          },
-"imgCaption": "unknown",
-"bio": "The Loyal Georgian was a weekly newspaper promoting African-American rights.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C5E4F02A3B10@EANX-12CC8265AB449578@2402622-12CBE7ADA7BF1068@0&p_docref=v2:12B7C5E4F02A3B10@EANX-12CC8265AB449578@2402622-12CBE7ADA7BF1068@0",
-"storyTitle": "General Tillson's Speech"
-},
-{
-"name": "Colored Citizen",
-"startDate": "May 19, 1866",
-"endDate": "May 19, 1866",
-"numOfIssues": 1,
-"location": "Cincinnati, Ohio",
-"editor": 	"Joseph C. Corbin, John P. Sampson, Charles W. Bell",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83045474/1915-12-30/ed-1/seq-2/thumbnail.jpg"
-          },
-"imgCaption": "The editors considered the press as the most powerful means of refuting lies and slanders of critics of African Americans.",
-"bio": "The newspaper was published by an association of black residents of Cincinnati, Louisville, Zanesville, St. Louis, Chicago, Columbus, Indianapolis and other major cities of the Midwest. It was primarily a journal of general news and literature with an emphasis on news pertinent to African Americans.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0&p_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0",
-"storyTitle": "The Cholera"
-},
-{
-"name": "Charleston Advocate",
-"startDate": "May 11, 1867",
-"endDate": " May 11, 1867",
-"numOfIssues": 1,
-"location": "Charleston, South Carolina",
-"editor": 	"Timothy Willard Lewis and Alonzo Webster",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025784/1867-02-23/ed-1/seq-1/thumbnail.jpg"
-          },
-"imgCaption": "Two Methodist clergymen, Timothy Willard Lewis and Alonzo Webster, established the Charleston Advocate with financial support from Boston-based philanthropist Lee Claflin and his son, Massachusetts Governor William Claflin.",
-"bio": "The Advocate combined international and national news, domestic advice, marriage and obituary notices, and news of the South Carolina Conference of the Methodist Episcopal Church and South Carolina Republican Party.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0&p_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0",
-"storyTitle": "An Illustration of the way in which the Colored People are going to Vote"
-},
-{
-"name": "Free Press",
-"startDate": "April 05, 1868",
-"endDate": "April 11, 1868",
-"numOfIssues": 2,
-"location": "Charleston, South Carolina",
-"editor": 	"Timothy Hurley",
-    "images": {
-      "editorPic": "unknown",
-      "generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025795/1868-04-05/ed-1/seq-1/thumbnail.jpg"
-          },
-"imgCaption": "Timothy Hurley, formerly with the Charleston South Carolina Leader, established the Free Press in 1868. He chose as its motto: “Justice to all men, regardless of race, color, or previous condition.” ",
-"bio": "The Charleston Free Press, a “weekly journal devoted to the interests of the Republic Party of South Carolina,” was one of a number of short-lived Republican newspapers published in the Low Country region of South Carolina during the Reconstruction era.Strictly speaking, the Free Press was not an African American newspaper, but it clearly sought to influence African American voters.",
-"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0&p_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0",
-"storyTitle": "Course of the First Negro Nominated to Congress"
-},
+	}, {
+		"name": "North Star",
+		"startDate": "December 03, 1847",
+		"endDate": "February 17, 1860",
+		"numOfIssues": 237,
+		"location": "Rochester, New York",
+		"editor": "Frederick Douglass",
+		"images": {
+			"editorPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Frederick_Douglass_portrait.jpg/800px-Frederick_Douglass_portrait.jpg",
+			"generalPic": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/NorthStarfrontpage.jpg/170px-NorthStarfrontpage.jpg"
+		},
+		"imgCaption": "After escaping from slavery in Maryland, Frederick Douglass became a national leader of the abolitionist movement. Douglass was first inspired to publish the North Star after subscribing to The Liberator, a weekly newspaper published by William Lloyd Garrison. ",
+		"bio": "North Star was an anti-slavery newspaper published by abolitionist Frederick Douglass. Douglass was determined to begin an African-American newspaper that would engage the anti-slavery movement politically.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:11BE9340B7A005AB@EANX-11D0A35EEBD9A1B8@2395999-11D0A35EFA2F8DB8@0&p_docref=v2:11BE9340B7A005AB@EANX-11D0A35EEBD9A1B8@2395999-11D0A35EFA2F8DB8@0",
+		"storyTitle": "Reformers by Wandell Phillips"
+	}, {
+		"name": "New Orleans Daily Creole",
+		"startDate": "July 01, 1856",
+		"endDate": "December 31, 1856",
+		"numOfIssues": 155,
+		"location": "New Orleans, Louisiana",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://medianola.org/uploads/medium/Image2-1380601213.jpg"
+		},
+		"imgCaption": "unknown",
+		"bio": "The New Orleans Daily Creole was the first daily newspaper owned and operated by African Americans in New Orleans.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:11B849020C1891B3@EANX-11B95CB9F4CA57E0@2399163-11B86D13B9F61E98@0&p_docref=v2:11B849020C1891B3@EANX-11B95CB9F4CA57E0@2399163-11B86D13B9F61E98@0-11FAA698F55BF55C@No%20Headline",
+		"storyTitle": "Legislative Acts/Legal Proceedings"
+	}, {
+		"name": "Aliened American",
+		"startDate": "April 09, 1853",
+		"endDate": "April 09, 1853",
+		"numOfIssues": 1,
+		"location": "Cleveland, Ohio",
+		"editor": "William Howard Day",
+		"images": {
+			"editorPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/William-howard-day.jpg/220px-William-howard-day.jpg",
+			"generalPic": "http://research.udmercy.edu/images/php/tn_image.php?width=800&img=http://research.udmercy.edu/digital_collections/baa/14067edi(apr9,1853)(page1).jpg"
+		},
+		"imgCaption": "William Howard Day was an abolitionist, editor, publisher, printer, teacher, lecturer, civic leader and clergyman who devoted his life to improving the conditions of his fellow African-Americans.",
+		"bio": "Aliened American was Cleveland's first black newspaper.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B97739D2E2CEF0@EANX-12CC877BA9ECE130@2397953-12CC2D34335FDB00@0&p_docref=v2:12B97739D2E2CEF0@EANX-12CC877BA9ECE130@2397953-12CC2D34335FDB00@0",
+		"storyTitle": "Ohio State"
+	}, {
+		"name": "Mirror of the Times",
+		"startDate": "December 12, 1857",
+		"endDate": "December 12, 1857",
+		"numOfIssues": 1,
+		"location": "San Francisco, California",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAXyIXjCqpDpLr7IXkjqVoQQsBfKhHV-FtQqQIi2JBHIuYW4bX"
+		},
+		"imgCaption": "unknown",
+		"bio": "Mirror of the Times was California's first black newspaper.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C614F5EA3730@EANX-12CC80B600CA9748@2399661-12CBE6DA63EF1CA8@0&p_docref=v2:12B7C614F5EA3730@EANX-12CC80B600CA9748@2399661-12CBE6DA63EF1CA8@0",
+		"storyTitle": "The Political Wrongs Inflicted by the American Government Upon its Colored Citizens"
+	}, {
+		"name": "Black Republican",
+		"startDate": "April 15, 1865",
+		"endDate": "May 20, 1865",
+		"numOfIssues": 5,
+		"location": "New Orleans, Louisiana",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://blog.genealogybank.com/wp-content/uploads/2012/02/black-republican-newspaper-0415-1865-black-slavery.png"
+		},
+		"imgCaption": "unknown",
+		"bio": "Black Republican was a newspaper that promoted African-American polotics, literature, art and promoted literacy.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12EFC46496A73990@EANX-12F12F5B22C07048@2402342-12EFCD20D6214C68@0&p_docref=v2:12EFC46496A73990@EANX-12F12F5B22C07048@2402342-12EFCD20D6214C68@0",
+		"storyTitle": "Bloody Chapter of Guerrilla Life in Arkansas"
+	}, {
+		"name": "L'Union",
+		"startDate": "September 27, 1862",
+		"endDate": " July 19, 1864",
+		"numOfIssues": 98,
+		"location": "New Orleans, Louisiana",
+		"editor": "Paul Trévigne",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
+		},
+		"imgCaption": "Paul Trévigne was part of the free people of color community in Louisiana that protested racial injustice before the Civil War and helped establish Republican politics in the state after 1865.",
+		"bio": "L'Union was founded and circulated as a biweekly and tri-weekly. Published primarily in French, the paper ran a few issues in English beginning in 1863. ",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B8668E0EB23CD0@EANX-12CC4C75ECF0C2C0@2401411-12CC2CC259330CC0@0&p_docref=v2:12B8668E0EB23CD0@EANX-12CC4C75ECF0C2C0@2401411-12CC2CC259330CC0@0",
+		"storyTitle": "L'esclavage"
+	}, {
+		"name": "New Orleans Tribune",
+		"startDate": "July 21, 1864",
+		"endDate": " February 28, 1869",
+		"numOfIssues": 691,
+		"location": "New Orleans, Louisiana",
+		"editor": "Charles Louise Roudanez",
+		"images": {
+			"editorPic": "http://www.blackpast.org/files/blackpast_images/harles_Roudanez__NYPL_Photo_Digital_Library_.jpg",
+			"generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
+		},
+		"imgCaption": "When the Union army took New Orleans in 1862 during the Civil War, Roudanez saw that the time was right to demand equality for free men of color. He started the militant Republican journal, L’Union, published in French and edited by Paul Trevigne. It was the first black newspaper to be published in Louisiana. When L’Union failed in 1864 from lack of support, Roudanez established a new journal called La Tribune de la Nouvelle Orléans (The New Orleans Tribune). ",
+		"bio": " The New Orleans Tribune was the first African American daily newspaper in the United States. Started in 1864 by Charles Louise Roudanez the Tribune was notable in that it was bilingual.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B3C01E490E6BA0@EANX-12BC6E8AD45FBE78@2402079-12BBC74193F851E8@0&p_docref=v2:12B3C01E490E6BA0@EANX-12BC6E8AD45FBE78@2402079-12BBC74193F851E8@0",
+		"storyTitle": "Official Report on the Freedmen"
+	}, {
+		"name": "Elevator",
+		"startDate": "May 05, 1865",
+		"endDate": "June 11, 1898",
+		"numOfIssues": 274,
+		"location": "San Francisco, California",
+		"editor": "Philip Alexander Bell",
+		"images": {
+			"editorPic": "http://www.blackpast.org/files/blackpast_images/bell_philip.jpg",
+			"generalPic": "https://roudanez.files.wordpress.com/2015/08/lunion.png?w=219&h=300"
+		},
+		"imgCaption": "After migrating to San Francisco, California in 1860, Bell maintained his connections with important abolition leaders such as Garrison and Frederick Douglass by reporting on black political and economic opportunities in the West.",
+		"bio": "The Elevator demanded California legislators approve the proposed Reconstruction-era constitutional amendments acknowledging black citizenship and suffrage rights.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B2891B22FC96B8@EANX-12C8B86AE9FA8948@2402362-12C8B86AF5D13CA8@0&p_docref=v2:12B2891B22FC96B8@EANX-12C8B86AE9FA8948@2402362-12C8B86AF5D13CA8@0",
+		"storyTitle": "Humiliation of South Carolina"
+	}, {
+		"name": "Colored American",
+		"startDate": "December 30, 1865",
+		"endDate": "January 13, 1866",
+		"numOfIssues": 3,
+		"location": "Augusta, Georgia",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": ""
+		},
+		"imgCaption": "unknown",
+		"bio": "One of the first African-American newspapers to be established in Georgia.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C5AD9503CA90@EANX-12CC88154D689248@2402601-12CBE7DE3190F700@0&p_docref=v2:12B7C5AD9503CA90@EANX-12CC88154D689248@2402601-12CBE7DE3190F700@0",
+		"storyTitle": "Terrible and Swift Justice"
+	}, {
+		"name": "Loyal Georgian",
+		"startDate": "January 20, 1866",
+		"endDate": "February 15, 1868",
+		"numOfIssues": 16,
+		"location": "Augusta, Georgia",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://hd.housedivided.dickinson.edu/files/images/HD_NwspprH650121p036c.preview.jpg"
+		},
+		"imgCaption": "unknown",
+		"bio": "The Loyal Georgian was a weekly newspaper promoting African-American rights.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C5E4F02A3B10@EANX-12CC8265AB449578@2402622-12CBE7ADA7BF1068@0&p_docref=v2:12B7C5E4F02A3B10@EANX-12CC8265AB449578@2402622-12CBE7ADA7BF1068@0",
+		"storyTitle": "General Tillson's Speech"
+	}, {
+		"name": "Colored Citizen",
+		"startDate": "May 19, 1866",
+		"endDate": "May 19, 1866",
+		"numOfIssues": 1,
+		"location": "Cincinnati, Ohio",
+		"editor": "Joseph C. Corbin, John P. Sampson, Charles W. Bell",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83045474/1915-12-30/ed-1/seq-2/thumbnail.jpg"
+		},
+		"imgCaption": "The editors considered the press as the most powerful means of refuting lies and slanders of critics of African Americans.",
+		"bio": "The newspaper was published by an association of black residents of Cincinnati, Louisville, Zanesville, St. Louis, Chicago, Columbus, Indianapolis and other major cities of the Midwest. It was primarily a journal of general news and literature with an emphasis on news pertinent to African Americans.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=S4CA45ECMTQ1NTAwMTEyNy45Mzg1MjoxOjE0OjE1Mi4yMy4xMTAuMTU0&f_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0&p_docref=v2:12B7C0F55673B228@EANX-12C1AED850642AC0@2402741-12C10539E4A3A768@0",
+		"storyTitle": "The Cholera"
+	}, {
+		"name": "Charleston Advocate",
+		"startDate": "May 11, 1867",
+		"endDate": " May 11, 1867",
+		"numOfIssues": 1,
+		"location": "Charleston, South Carolina",
+		"editor": "Timothy Willard Lewis and Alonzo Webster",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025784/1867-02-23/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "Two Methodist clergymen, Timothy Willard Lewis and Alonzo Webster, established the Charleston Advocate with financial support from Boston-based philanthropist Lee Claflin and his son, Massachusetts Governor William Claflin.",
+		"bio": "The Advocate combined international and national news, domestic advice, marriage and obituary notices, and news of the South Carolina Conference of the Methodist Episcopal Church and South Carolina Republican Party.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0&p_docref=v2:12B86913AAEE5370@EANX-12CC8CF6ABC7BBB0@2403098-12CC2CC304735FB0@0",
+		"storyTitle": "An Illustration of the way in which the Colored People are going to Vote"
+	}, {
+		"name": "Free Press",
+		"startDate": "April 05, 1868",
+		"endDate": "April 11, 1868",
+		"numOfIssues": 2,
+		"location": "Charleston, South Carolina",
+		"editor": "Timothy Hurley",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025795/1868-04-05/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "Timothy Hurley, formerly with the Charleston South Carolina Leader, established the Free Press in 1868. He chose as its motto: “Justice to all men, regardless of race, color, or previous condition.” ",
+		"bio": "The Charleston Free Press, a “weekly journal devoted to the interests of the Republic Party of South Carolina,” was one of a number of short-lived Republican newspapers published in the Low Country region of South Carolina during the Reconstruction era.Strictly speaking, the Free Press was not an African American newspaper, but it clearly sought to influence African American voters.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=D5BL52EPMTQ1NTIwMzI0MC4xMjg0MjE6MToxMzoxNTIuMjMuNTguMjI1&f_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0&p_docref=v2:12B865D1A65A86F8@EANX-12CCA14734C0DE18@2403428-12CC2CC1F5618ED0@0",
+		"storyTitle": "Course of the First Negro Nominated to Congress"
+	}, {
+		"name": "South Carolina Leader",
+		"startDate": "October 07, 1865",
+		"endDate": "May 12, 1866",
+		"numOfIssues": 8,
+		"location": "Charleston, South Carolina",
+		"editor": "Timothy Hurley and Allen Coffin",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025783/1865-10-07/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "Timothy Hurley and Allen Coffin declared, “Our mission is to improve the whole people, by advocating equal rights to all … we are for the Union and the Constitution, and shall defend the flag against its enemies wherever found.” ",
+		"bio": "the South Carolina Leader was an American-owned Republican newspaper “devoted to the interest of free labor and general reform,” established itself as a widely read and long-lasting news source in a time of scarce capital and increased hostility towards blacks in South Carolina.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B7C6B6028CB1D8@EANX-12CC471D10514AB8@2402517-12CC2CC1CE6B19E0@0&p_docref=v2:12B7C6B6028CB1D8@EANX-12CC471D10514AB8@2402517-12CC2CC1CE6B19E0@0",
+		"storyTitle": "Let Girls be Girls"
+	}, {
+		"name": "Colored Tennessean",
+		"startDate": "August 12, 1865",
+		"endDate": "July 18, 1866",
+		"numOfIssues": 6,
+		"location": "Nashville, Tennessee",
+		"editor": "W.B. Scott & Son",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://texashistory.unt.edu/ark:/67531/metapth596124/small/"
+		},
+		"imgCaption": "unknown",
+		"bio": "The Colored Tennessean was a newspaper promoting African-Americans in Tennessee.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B862996961FA98@EANX-12CC491B212FA6B8@2402461-12CC2CC1DF414FF0@0&p_docref=v2:12B862996961FA98@EANX-12CC491B212FA6B8@2402461-12CC2CC1DF414FF0@0",
+		"storyTitle": "Proceedings of the State"
+	}, {
+		"name": "Free Man's Press",
+		"startDate": "October 24, 1868",
+		"endDate": "October 24, 1868",
+		"numOfIssues": 1,
+		"location": "Galveston, Texas",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://texashistory.unt.edu/ark:/67531/metapth596293/small/"
+		},
+		"imgCaption": "unknown",
+		"bio": "Weekly African-American newspaper from Galveston, Texas that includes local, state and national news along with advertising.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B865F3F61FD1D8@EANX-12CC8AC9062447E8@2403630-12CC2CC1F00AB0D8@0&p_docref=v2:12B865F3F61FD1D8@EANX-12CC8AC9062447E8@2403630-12CC2CC1F00AB0D8@0",
+		"storyTitle": "The Men who Govern"
+	}, {
+		"name": "Arkansas Freeman",
+		"startDate": "October 05, 1869",
+		"endDate": "October 05, 1869",
+		"numOfIssues": 1,
+		"location": "Little Rock, Arkansas",
+		"editor": "Tabbs Gross",
+		"images": {
+			"editorPic": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL3lI_nDme_zJOVFdLlUfVBTqVwQZDnv1MefNo0xs0Bbppgbrp",
+			"generalPic": "unknown"
+		},
+		"imgCaption": "The Reverend Tabbs Gross, an ex-slave from Germantown, Kentucky, stated in his prospectus that black citizens in the state needed a “faithful and reliable newspaper, devoted particularly to their interests, and conducted and controlled by men of their own race and color.” ",
+		"bio": "The Arkansas Freeman was the first newspaper in Arkansas printed by an African American and focusing upon the black community. It was in publication for less than one year, having become symptomatic of the divisions within the Republican Party, particularly where African Americans were involved.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B8635EC82E9AC0@EANX-12CCA1011D0F6C30@2403976-12CC2CC38125E648@0&p_docref=v2:12B8635EC82E9AC0@EANX-12CCA1011D0F6C30@2403976-12CC2CC38125E648@0",
+		"storyTitle": "Can a Negro hold Office under the Constitution of the United States"
+	}, {
+		"name": "Savannah Tribune",
+		"startDate": " December 04, 1875",
+		"endDate": "present",
+		"numOfIssues": 1633,
+		"location": "Savannah, Georgia",
+		"editor": "Louis B. Toomer, Sr., Louis M. Pleasant, and  John H. Deveaux",
+		"images": {
+			"editorPic": "https://lh6.googleusercontent.com/-JZIaQ4Lbg2k/UtWhq06tu3I/AAAAAAAAoaQ/Xi1xF637P0k/s512/JohnHDeVeaux.jpg",
+			"generalPic": "http://www.georgiaencyclopedia.org/sites/default/files/m-10951.jpg"
+		},
+		"imgCaption": "Savannah native John H. Deveaux served as the first editor of the Savannah Tribune.",
+		"bio": "The Savannah Tribune was founded in 1875 and went through two hiatuses from 1878 to 1886 and from 1960 to 1973. Originally named the Colored Tribune, the paper was established by Louis B. Toomer, Sr., Louis M. Pleasant, and Savannah native John H. Deveaux who served as the first editor. The name was changed to the Savannah Tribune in 1876. The newspaper published until 1878, when the all - white printers in the city, refused to produce it.It reopened in 1886. It is one of the few African - American newspapers still operating today.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:11CCCBEC43F62EDE@EANX-11E53AEF4A7C1500@2406227-11E53AEF551AADF0@0&p_docref=v2:11CCCBEC43F62EDE@EANX-11E53AEF4A7C1500@2406227-11E53AEF551AADF0@0",
+		"storyTitle": "Sketch of a Sermon by Rev. H. M. Turner"
+	}, {
+		"name": "Leavenworth Colored Radical",
+		"startDate": "August 24, 1876",
+		"endDate": "November 16, 1876",
+		"numOfIssues": 5,
+		"location": " Leavenworth, Kansas",
+		"editor": "Thomas Wellington Henderson",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "unknown"
+		},
+		"imgCaption": "Rev. Thomas Wellington Henderson was born free in Greensboro, N.C. He became an AME minister and he and several pastorates edited the Colored Radical.",
+		"bio": "The very first African American newspaper documented in Kansas was the Leavenworth Colored Radical first published August 1876 by Henderson & Williams. With “Devoted to the interests of the colored people” as it mission statement the short-lived newspaper started the legacy of the power of the Black press in Kansas by giving voice to social justice issues not spoke about in white media. Since that first issue, Kansas has been the home to over 80 Black newspapers.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12F411FDA00CC5E0@EANX-12F8636E2CD320D0@2406491-12F5B7FC11092138@0&p_docref=v2:12F411FDA00CC5E0@EANX-12F8636E2CD320D0@2406491-12F5B7FC11092138@0",
+		"storyTitle": "The Ticket"
+	}, {
+		"name": "Weekly Louisianian",
+		"startDate": "December 18, 1870",
+		"endDate": "June 17, 1882",
+		"numOfIssues": 416,
+		"location": "New Orleans, Louisiana",
+		"editor": "unknown",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83016632/1872-04-27/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "unknown",
+		"bio": "The Louisiana Weekly was a weekly newspaper published in New Orleans, Louisiana, United States. It emphasized topics of interest to the African-American community, especially in the New Orleans area and south Louisiana.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B767D21CB17968@EANX-12BEB50BCF17D4A0@2404415-12BC000FE57A48B8@0&p_docref=v2:12B767D21CB17968@EANX-12BEB50BCF17D4A0@2404415-12BC000FE57A48B8@0",
+		"storyTitle": "The Oldest City in the World"
+	}, {
+		"name": "Echo",
+		"startDate": "March 15, 1873",
+		"endDate": "March 15, 1873",
+		"numOfIssues": 1,
+		"location": "St. Martinville, Louisiana",
+		"editor": "J. F. Penne",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "https://s-media-cache-ak0.pinimg.com/736x/c8/dd/94/c8dd946ec7a3f2dd530176e9347dedf1.jpg"
+		},
+		"imgCaption": "unknown",
+		"bio": "The Echo was a weekly newspaper covering African-American interests in Louisiana.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B7BF9EAF0264B0@EANX-12CC3690C4DCEB38@2405233-12CBE605F6605190@0&p_docref=v2:12B7BF9EAF0264B0@EANX-12CC3690C4DCEB38@2405233-12CBE605F6605190@0",
+		"storyTitle": "The Better Education of Farmers"
+	}, {
+		"name": "Concordia Eagle",
+		"startDate": "October 02, 1875",
+		"endDate": "April 12, 1883",
+		"numOfIssues": 6,
+		"location": "Vidalia, Louisiana",
+		"editor": "David Young",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83016716/1875-10-02/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "The paper's founder was a black state legislator and political boss, David Young. Born in Kentucky, Young was captured as a runaway slave and eventually taken to Louisiana, where, after the Civil War, he became a prosperous farmer, businessman, minister, and officeholder.",
+		"bio": "Founded in 1873 under the motto Equal Rights to All Men the Concordia Eagle was a four-page Republican weekly published in Vidalia, Louisiana, a small agricultural community located on the west bank of the Mississippi River",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B7C64A6F4D67D0@EANX-12CC3A6338E44520@2406164-12CBE94BFA42CF68@0&p_docref=v2:12B7C64A6F4D67D0@EANX-12CC3A6338E44520@2406164-12CBE94BFA42CF68@0",
+		"storyTitle": "New York Fashions. Fall Bonnets"
+	}, {
+		"name": "Missionary Record",
+		"startDate": "July 05, 1873",
+		"endDate": "July 05, 1873",
+		"numOfIssues": 1,
+		"location": "Charleston, South Carolina",
+		"editor": "Timothy Hurley and Allen Coffin ",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025781/1873-07-05/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "Timothy Hurley and Allen Coffin declared, “Our mission is to improve the whole people, by advocating equal rights to all … we are for the Union and the Constitution, and shall defend the flag against its enemies wherever found.”",
+		"bio": "The weekly Charleston Missionary Record, an African American-owned Republican newspaper “devoted to the interest of free labor and general reform,” established itself as a widely read and long-lasting news source in a time of scarce capital and increased hostility towards blacks in South Carolina.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive?d_viewref=doc&p_docnum=-1&p_nbid=O54X4BWIMTQ1NTIzNzI1OC45MjQ5ODc6MToxMzoxNTIuMjMuMTA4Ljk1&f_docref=v2:12B7C07B44BB3268@EANX-12C2AFA1C08CA7D0@2405345-12C10539E74B8A30@0&p_docref=v2:12B7C07B44BB3268@EANX-12C2AFA1C08CA7D0@2405345-12C10539E74B8A30@0",
+		"storyTitle": "A New Party"
+	}, {
+		"name": "Georgetown Planet",
+		"startDate": "May 31, 1873",
+		"endDate": "May 31, 1873",
+		"numOfIssues": 1,
+		"location": "Georgetown, South Carolina",
+		"editor": "James Alfred Bowley",
+		"images": {
+			"editorPic": "unknown",
+			"generalPic": "http://chroniclingamerica.loc.gov/lccn/sn83025798/1873-05-31/ed-1/seq-1/thumbnail.jpg"
+		},
+		"imgCaption": "James Alfred Bowley, formerly of Maryland, established the Georgetown Planet in 1873. Richard Oliver Bush, a native of Rhode Island, served as assistant editor. They pledged that the Planet would “advocate the great principles of the Republican Party, the party which guarantees to every citizen liberty, equal rights [and] justice before the law.”",
+		"bio": "The weekly Georgetown Planet, a Republican newspaper “devoted to politics, literature, and science,” sought to influence black voters in Georgetown County, South Carolina, in the waning years of the Reconstruction era.",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive",
+		"storyTitle": "Woman's Power"
+	}, {
+		"name": "People's Advocate",
+		"startDate": "April 11, 1876",
+		"endDate": "September 09, 1876",
+		"numOfIssues": 22,
+		"location": "Alexandria, Virginia",
+		"editor": "John Wesley Cromwell",
+		"images": {
+			"editorPic": "http://www.lva.virginia.gov/public/trailblazers/2008/img/JohnCromwell.jpg",
+			"generalPic": "unknown"
+		},
+		"imgCaption": "John Wesley Cromwell was born into slavery in Portsmouth, Virginia, but became a powerful leader and educator. A gifted organizer, Cromwell was involved in the creation of the Virginia Educational and Historical Association, the National Colored Press Association (after 1894 the National Afro-American Press Association), and the Bethel Literary and Historical Association, among others.",
+		"bio": "The People's Advocate was a weekly paper in Alexandria, Virginia that covered issues such as Jim Crow laws, and lack of African-American representation in politics. ",
+		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive",
+		"storyTitle": "The Administration Not Proscriptive"
+	}
 
-{
-"name": "",
-"startDate": "",
-"endDate": "",
-"numOfIssues": 274,
-"location": "",
-"editor": 	"",
-    "images": {
-      "editorPic": "",
-      "generalPic": ""
-          },
-"imgCaption": "",
-"bio": "",
-"storyLink": "",
-"storyTitle": ""
-}
-
-  ]
+]
