@@ -92,10 +92,9 @@
 	<div class="events-content">
 		<ol>
 			<li class="selected" data-date="16/01/2014">
-				<h2>Horizontal Timeline</h2>
-				<em>January 16th, 2014</em>
+					<em>January 16th, 2014</em>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
 				</p>
 			</li>
 
@@ -113,17 +112,19 @@
       <thead>
         <tr>
           <th>Name</th>
+          <th>Located</th>
+          <th>Number of Issues</th>
           <th>Established</th>
-          <th>Discontinued</th>
-          <th>Location</th>
+          <th>Ended</th>
         </tr>
       </thead>
       <tbody ng-repeat= "data in base.papers">
           <tr>
              <td ng-click="base.panelInfo(data.name)"> {{ data.name }}</td>
+            <td>{{ data.location }}</td>
+            <td>{{ data.numOfIssues}}</td>
             <td>{{ data.startDate }}</td>
             <td> {{data.endDate}}</td>
-            <td>{{ data.location }}</td>
           </tr>
       </tbody>
     </table>

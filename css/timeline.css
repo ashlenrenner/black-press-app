@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -8,7 +8,7 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 50%;
 }
 
 body {
@@ -23,9 +23,9 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .cd-horizontal-timeline {

@@ -421,6 +421,21 @@
 		"bio": "The People's Advocate was a weekly paper in Alexandria, Virginia that covered issues such as Jim Crow laws, and lack of African-American representation in politics. ",
 		"storyLink": "http://infoweb.newsbank.com/iw-search/we/HistArchive/HistArchive",
 		"storyTitle": "The Administration Not Proscriptive"
-	}
-
+	},
+  {
+    "name": "Liberator",
+    "startDate": "January 1, 1831",
+    "endDate": "December 29, 1865",
+    "numOfIssues": 1820,
+    "location": "Boston, Massachusetts",
+    "editor": "William Lloyd Garrison",
+    "images": {
+      "editorPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/William-Lloyd-Garrison-by-Jocelyn%2C-1833.jpg/220px-William-Lloyd-Garrison-by-Jocelyn%2C-1833.jpg",
+      "generalPic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/1831_Liberator.jpg/220px-1831_Liberator.jpg"
+    },
+    "imgCaption": "William Lloyd Garrison was one of the founders of the American Anti-Slavery Society. He promoted immediate emancipation of slaves in the United States. In the 1870s, Garrison became a prominent voice for the woman suffrage movement.",
+    "bio": "The Liberator had a circulation of about 3,000, and three-quarters of subscribers were African Americans in 1834. The newspaper earned nationwide notoriety for its uncompromising advocacy of immediate and complete emancipation of all slaves in the United States. ",
+    "storyLink": "https://archive.org/stream/liberatorv28n30garr#page/117/mode/1up",
+    "storyTitle": "The Liberator"
+  }
 ]
