@@ -13,6 +13,19 @@ app.controller('BaseController', ['$http', function($http) {
       console.log("This request failed. \n" + msg)
     });
 
+    this.panelInfo = function(paperInfo){
+      this.name = paperInfo;
+
+      for (var i = 0; i < this.data.length; i++){
+        if (paperInfo == this.data[i].name){
+          this.currentPaper = this.data[i];
+          var paperInfo = "";
+          paperInfo += '<h3>' + this.data[i].name + '</h3>';
+          document.getElementById("paperInfo").innerHTML = paperInfo;
+        }
+      }
+    }
+
       // this.filter = function(data){
       //   for(var i in data){
       //     data [i].date = new Date(
