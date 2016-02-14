@@ -31,7 +31,6 @@
    <div class="container" ng-controller="BaseController as base">
         <div class="row">
            <div class="col-xs-12">
-             <h1>Test</h1>
 <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
       <li class="active">
@@ -74,9 +73,11 @@
 		<div class="events-wrapper">
 			<div class="events">
 				<ol>
-					<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
-					<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
-					<!-- other dates here -->
+					<li><a href="#0" data-date="01/02/1820" class="selected">1820</a></li>
+					<li><a href="#0" data-date="28/02/1827">1827</a></li>
+          <li><a href="#0" data-date="28/02/1830">1831</a></li>
+          <li><a href="#0" data-date="28/02/1836">1836</a></li>
+
 				</ol>
 
 				<span class="filling-line" aria-hidden="true"></span>
@@ -91,18 +92,35 @@
 
 	<div class="events-content">
 		<ol>
-			<li class="selected" data-date="16/01/2014">
-					<em>January 16th, 2014</em>
+			<li class="selected" data-date="01/02/1820">
+        <h2>U.S. Census</h2>
+          <em>1820</em>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-				</p>
+					Census of 1820, U.S. Population: 9,638,452, Black Population: 1,771,656 (18.4 percent) including 233,504 free African Americans.</p>
 			</li>
 
-			<li data-date="28/02/2014">
-				<!-- event description here -->
+			<li data-date="28/02/1827">
+				<h2>Slavery Abolished</h2>
+          <em>1827</em>
+          <p>
+            Slavery is officially abolished in New York.
+          </p>
+			</li>
+      <li data-date="28/02/1830">
+				<h2>Slave Rebellion</h2>
+          <em>1831</em>
+          <p>
+            Nat Turner leads a slave rebellion in Southampton, Virginia, killing at least 57 whites.
+          </p>
+			</li>
+      <li data-date="28/02/1836">
+				<h2>Texas a Slave State</h2>
+          <em>1836</em>
+          <p>
+            Texas declares its independence from Mexico. In its Constitution as an independent nation, Texas recognizes slavery and makes it difficult for free blacks to remain there.
+          </p>
 			</li>
 
-			<!-- other descriptions here -->
 		</ol>
 	</div> <!-- .events-content -->
 </section>
