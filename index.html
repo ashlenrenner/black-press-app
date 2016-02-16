@@ -22,6 +22,7 @@
 <!-- Custom CSS -->
       <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Black Press</title>
@@ -214,18 +215,22 @@
 	</div> <!-- .events-content -->
 </section>
 
+<!-- Search -->
+  <div class="col-md-6">
+    <input type="text" ng-model="searchTerm" class="form-control" style="float: right" placeholder="Search" />
+  </div>
 <!-- Table -->
     <table class="table" >
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Located</th>
-          <th>Number of Issues</th>
-          <th>Established</th>
-          <th>Ended</th>
+          <th ng-click = "base.setSort('name')">Name</th>
+          <th ng-click = "base.setSort('location')">Located</th>
+          <th ng-click = "base.setSort('numOfIssues')">Number of Issues</th>
+          <th ng-click = "base.setSort('startDate')">Established</th>
+          <th ng-click = "base.setSort('endDate')">Ended</th>
         </tr>
       </thead>
-      <tbody ng-repeat= "data in base.papers">
+      <tbody ng-repeat= "data in base.papers | orderBy:base.sort:base.reverse | filter:searchTerm">
           <tr>
              <td ng-click="base.panelInfo(data.name)"> {{ data.name }}</td>
             <td>{{ data.location }}</td>
