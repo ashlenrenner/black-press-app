@@ -1,32 +1,38 @@
 var app = angular.module('myApp', []);
 
 app.controller('BaseController', ['$http', function($http) {
-//ajax request from data.json
+    //ajax request from data.json
     this.papers = [];
     var _this = this;
+
     $http.get('/js/data.json')
-    .success(function(data){
-      console.log(data);
-      _this.papers = data;
-    })
-    .error(function(msg){
-      console.log("This request failed. \n" + msg)
-    });
+      .success(function(data){
+        console.log(data);
+        _this.papers = data;
+      })
+      .error(function(msg){
+        console.log("This request failed. \n" + msg)
+      });
+
     this.panelInfo = true;
     this.name = "";
-//toggle commands for info panel
+
+    //toggle commands for info panel
     this.panelInfo = function(paperInfo){
+
       this.name = paperInfo;
 
-      for (var i = 0; i < this.data.length; i++){
+      for (var i = 0; i < this.papers.length; i++){
         console.log(i);
-        if (paperInfo == this.data[i].name){
-          this.currentPaper = this.data[i];
+        if (paperInfo == this.papers[i].name){
+          this.currentPaper = this.papers[i];
           var paperInfo = "";
-          paperInfo += '<h3>' + this.data[i].name + '</h3>';
+          paperInfo += '<h3>' + this.papers[i].name + '</h3>';
           document.getElementById("paperInfo").innerHTML = paperInfo;
         }
+
       }
+
     }
 
       // this.filter = function(data){
