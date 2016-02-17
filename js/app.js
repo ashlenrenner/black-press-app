@@ -53,7 +53,7 @@ app.controller('BaseController', ['$http', function($http) {
 
           if(this.papers[i].images.generalPic !== undefined){
           //  console.log("loading");
-            paperInfo += '<img src =' + this.papers[i].images.generalPic + '/>';
+            paperInfo += '<img class= "front-img" src =' + this.papers[i].images.generalPic + '/>';
           //  console.log("loaded");
           }
 
@@ -71,7 +71,7 @@ app.controller('BaseController', ['$http', function($http) {
     }
 
     //function for story tab
-    
+
       this.storyInfo = function(getStory){
 
         this.storyTitle = getStory;

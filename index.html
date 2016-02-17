@@ -3,10 +3,13 @@
 <head>
   <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Custom CSS -->
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <!-- Boostrap  -->
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
       <script src="js/bootstrap.min.js"></script>
       <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+
 <!-- Angular -->
       <script src="js/angular.min.js"></script>
 
@@ -19,8 +22,7 @@
       <script src="js/timeline/modernizr.js"></script>
       <link href="css/timeline.css" rel="stylesheet" type="text/css" />
       <link href="css/reset.css" rel="stylesheet" type="text/css" />
-<!-- Custom CSS -->
-      <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
 
 
   <meta charset="utf-8">
@@ -29,10 +31,39 @@
 </head>
 
 <body ng-app="myApp">
-   <div class="container" ng-controller="BaseController as base">
-        <div class="row">
-           <div class="col-xs-12">
+  <div class="container" ng-controller="BaseController as base">
+
+    <!-- intro accordion mobile -->
+        <div id="accordion-mobile">
+          <div class="col-sm-12 container-fluid">
+            <div class= "panel-group accordion" id="accordion">
+          <div class="panel panel-default">
+          <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                 Introduction
+              </a><span class="glyphicon glyphicon-menu-down"></span>
+            </h4>
+          </div>
+          <div id="collapseSix" class="panel-collapse collapse">
+            <div class="panel-body accordion-mobile">
+              As the U.S. recovered from the initial shock of the Great Recession, many schools across the
+              country struggled to provide their students with the resources they needed to succeed.
+              The U.S. was falling behind in education as reading, writing and math scores steadily
+              decreased, and schools had to cut back their budgets. States were awarded nearly $3.5 billion
+              in School Improvement Grant (SIG) funds in 2010 to turn around their persistently lowest-achieving schools.
+              Since then, studies have shown SIG schools have improved, but even as the country eased out of the Recession,
+              schools continue to apply for aid.
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div> <!--intro end accordion mobile-- >
+
 <!-- Nav tabs -->
+<div class="row">
+ <div class="col-md-12">
     <ul class="nav nav-tabs" role="tablist">
       <li class="active">
           <a href="#profile" role="tab" data-toggle="tab">
@@ -67,9 +98,12 @@
         <!-- <a href="{{data.storyLink}}">{{data.storyTitle}}</a> -->
       </div>
     </div> <!-- closes panes -->
+  </div> <!-- col -->
+</div> <!-- row -->
 
 <!-- Timeline -->
-
+<div class="row">
+<div class=" col-md-12">
 <section class="cd-horizontal-timeline">
 	<div class="timeline">
 		<div class="events-wrapper">
@@ -214,25 +248,29 @@
     </ol>
 	</div> <!-- .events-content -->
 </section>
+</div>
+</div>
 
 <!-- Search -->
-  <div class="col-md-3">
-    <input type="text" ng-model="searchTerm" class="form-control" style="float: right" placeholder="Search" />
+<div class="row">
+  <div class="col-md-3 col-sm-3">
+    <input type="text" ng-model="searchTerm" class="form-control" placeholder="Search" />
   </div>
+</div>
 <!-- Table -->
     <table class="table" >
       <thead>
         <tr>
-          <th ng-click = "base.setSort('name')">Name</th>
-          <th ng-click = "base.setSort('location')">Located</th>
-          <th ng-click = "base.setSort('numOfIssues')">Number of Issues</th>
-          <th ng-click = "base.setSort('startDate')">Established</th>
-          <th ng-click = "base.setSort('endDate')">Ended</th>
+          <th ng-click = "base.setSort('name')"><a href="#"> Name </a></th>
+          <th ng-click = "base.setSort('location')"><a href="#">Located</a></th>
+          <th ng-click = "base.setSort('numOfIssues')"><a href="#">Number of Issues</a></th>
+          <th ng-click = "base.setSort('startDate')"><a href="#">Established</a></th>
+          <th ng-click = "base.setSort('endDate')"><a href="#">Ended</a></th>
         </tr>
       </thead>
       <tbody ng-repeat= "data in base.papers | orderBy:base.sort:base.reverse | filter:searchTerm">
           <tr>
-             <td ng-click="base.panelInfo(data.name)"> {{ data.name }}</td>
+             <td ng-click="base.panelInfo(data.name)"><a class="paper-link" href="#"> {{ data.name }}</a></td>
             <td>{{ data.location }}</td>
             <td>{{ data.numOfIssues}}</td>
             <td>{{ data.startDate }}</td>
@@ -242,8 +280,8 @@
       </tbody>
     </table>
 
-        </div> <!-- col -->
-      </div> <!-- row -->
+
+
   </div> <!-- container -->
 </body>
 </html>

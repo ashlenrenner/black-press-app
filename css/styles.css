@@ -1,4 +1,42 @@
 /*this is a custom css stylesheet*/
 .element.style{
   font-size: 3em;
+
+}
+
+.front-img{
+  max-height: 300px;
+  margin: 1em;
+  padding: 2em;
+  align-items: center;
+}
+
+.paper-link{
+  font-weight: bold;
+  text-decoration: none;
+}
+.paper-link:hover, .paper-link:active{
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+}
+
+.form-control.style, .textarea, .input{
+  float: right;
+  border-radius: 10px;
+  background-color: red;
+}
+/*intro accordion mobile*/
+
+#accordion-mobile .panel-default .panel-heading{
+  background-color: #e7d1d0;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    #accordion-mobile {
+        display: none !important;
+    }
+}
+.glyphicon-menu-down{
+  float: right;
 }
