@@ -18,7 +18,7 @@ app.controller('BaseController', ['$http', function($http) {
     this.name = "";
     this.sort = "name";
     this.reverse = false;
-    this.generalPic = "";
+    this.images = "";
     this.bio = "";
 
     // Sorting function
@@ -37,7 +37,7 @@ app.controller('BaseController', ['$http', function($http) {
     this.panelInfo = function(paperInfo){
 
       this.name = paperInfo;
-      this.generalPic = paperInfo;
+      this.images.generalPic = paperInfo;
       this.bio = paperInfo;
 
       for (var i = 0; i < this.papers.length; i++){
@@ -46,19 +46,48 @@ app.controller('BaseController', ['$http', function($http) {
           this.currentPaper = this.papers[i];
           var paperInfo = "";
 
-          if(this.papers[i].generalPic !== undefined){
-            paperInfo += '<img src =' + this.papers[i].generalPic + '/>';
-          }
-
           paperInfo += '<h3>' + this.papers[i].name + '</h3>';
 
-        //  paperInfo += '<p>' this.papers[i].bio + '</p>';
+          if(this.papers[i].images.generalPic !== undefined){
+          //  console.log("loading");
+            paperInfo += '<img src =' + this.papers[i].images.generalPic + '/>';
+          //  console.log("loaded");
+          }
+
+          if(this.papers[i].bio !== undefined){
+
+            paperInfo += '<p>' + this.papers[i].bio + '</p>'
+
+          }
+
           document.getElementById("paperInfo").innerHTML = paperInfo;
         }
 
       }
 
     }
+
+      this.storyInfo = function(getStory){
+
+        this.storyTitle = getStory;
+        this.storyLink = getStory;
+
+        for (var i = 0; i < this.papers.length; i++){
+          console.log(i);
+
+          if (storyInfo == this.papers[i].storyTitle){
+            this.currentPaper = this.papers[i];
+
+            var getStory = "";
+
+            if (storyInfo == this.papers[i].storyLink){
+              storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
+            }
+
+          }
+        }
+
+      }
 
       // this.filter = function(data){
       //   for(var i in data){
