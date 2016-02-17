@@ -20,6 +20,9 @@ app.controller('BaseController', ['$http', function($http) {
     this.reverse = false;
     this.images = "";
     this.bio = "";
+    this.storyInfo = true;
+    this.storyTitle = "";
+    this.storyLink = "";
 
     // Sorting function
           this.setSort = function(colNam) {
@@ -67,6 +70,8 @@ app.controller('BaseController', ['$http', function($http) {
 
     }
 
+    //function for story tab
+    
       this.storyInfo = function(getStory){
 
         this.storyTitle = getStory;
