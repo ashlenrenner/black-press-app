@@ -13,7 +13,7 @@ app.controller('BaseController', ['$http', function($http) {
       .error(function(msg){
         console.log("This request failed. \n" + msg)
       });
-      
+
 
     this.panelInfo = true;
     this.name = "";
@@ -49,21 +49,22 @@ app.controller('BaseController', ['$http', function($http) {
 
       for (var i = 0; i < this.papers.length; i++){
         console.log(i);
+
         if (paperInfo == this.papers[i].name){
           this.currentPaper = this.papers[i];
           var paperInfo = "";
 
-          paperInfo += '<h3>' + this.papers[i].name + '</h3>';
+          paperInfo += '<h3>' + this.currentPaper.name + '</h3>';
 
           if(this.papers[i].images.generalPic !== undefined){
-          //  console.log("loading");
-            paperInfo += '<img class= "front-img" src =' + this.papers[i].images.generalPic + '/>';
-          //  console.log("loaded");
+
+            paperInfo += '<img class="front-img" src="' + this.currentPaper.images.generalPic + '" />';
+
           }
 
           if(this.papers[i].bio !== undefined){
 
-            paperInfo += '<p>' + this.papers[i].bio + '</p>'
+            paperInfo += '<p>' + this.currentPaper.bio + '</p>'
 
           }
 
@@ -79,17 +80,18 @@ app.controller('BaseController', ['$http', function($http) {
 
     //function for story tab
 
-      this.storyInfo = function(){
+       this.storyInfo = function(){
+         var storyInfo = "";
 
+          if (this.currentPaper.storyTitle !== undefined){
 
-          if (storyInfo == this.currentPaper.storyTitle){
+            // storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
 
-            storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
+            if (this.papers[i].storyLink !== undefined){
+              storyInfo += '<a href="' + this.currentPaper.storyLink + '>' + this.currentPaper.storyTitle + '</a>';
 
-            if (storyInfo == this.papers[i].storyLink){
-              storyInfo += '<a>' + this.currentPaper.storyLink + '</a>'
             }
-              document.getElementById("stories").innerHTML = paperInfo;
+              document.getElementById("stories").innerHTML = storyInfo;
           }
 
 
@@ -98,20 +100,23 @@ app.controller('BaseController', ['$http', function($http) {
       //function for editor tab
 
         this.editorInfo = function(){
+          var editorInfo = "";
 
-        if (editorInfo == this.currentPaper.editor){
-            editorInfo += '<h3>' + this.currentPaper.editor + '</h3>'
+          if (this.currentPaper.editor !== undefined){
+            editorInfo += '<h3>' + this.currentPaper.editor + '</h3>';
+          }if (this.currentPaper.editor == ""){
+            editorInfo += '<p> The editor of ' + this.currentPaper.name + ' is unknown. </p>';
           }
 
-          if (editorInfo == this.currentPaper.editorPic){
-              editorInfo += '<img src= "' + this.currentPaper.editorPic + '"/>'
+          if (this.currentPaper.images.editorPic !== undefined){
+            editorInfo += '<img src= "' + this.currentPaper.images.editorPic + '" />';
+          }
 
-              if (editorInfo == this.currentPaper.imgCaption){
-                editorInfo += '<p>' + this.currentPaper.imgCaption + '</p>'
-              }
-                document.getElementById("editor").innerHTML = paperInfo;
-            }
+          if (this.currentPaper.imgCaption !== undefined){
+            editorInfo += '<p>' + this.currentPaper.imgCaption + '</p>';
+          }
 
+          document.getElementById("editor").innerHTML = editorInfo;
 
         }
 
