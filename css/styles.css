@@ -29,7 +29,7 @@
 /*intro accordion mobile*/
 
 #accordion-mobile .panel-default .panel-heading{
-  background-color: #e7d1d0;
+  background-color: #f8f8f8;
   width: 100%;
 }
 @media screen and (min-width: 1024px) {

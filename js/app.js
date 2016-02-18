@@ -13,6 +13,7 @@ app.controller('BaseController', ['$http', function($http) {
       .error(function(msg){
         console.log("This request failed. \n" + msg)
       });
+      
 
     this.panelInfo = true;
     this.name = "";
@@ -23,6 +24,9 @@ app.controller('BaseController', ['$http', function($http) {
     this.storyInfo = true;
     this.storyTitle = "";
     this.storyLink = "";
+    this.editor = "";
+    this.editorPic = "";
+    this.imgCaption = "";
 
     // Sorting function
           this.setSort = function(colNam) {
@@ -68,39 +72,48 @@ app.controller('BaseController', ['$http', function($http) {
 
       }
 
+      this.storyInfo();
+      this.editorInfo();
+
     }
 
     //function for story tab
 
-      this.storyInfo = function(getStory){
+      this.storyInfo = function(){
 
-        this.storyTitle = getStory;
-        this.storyLink = getStory;
 
-        for (var i = 0; i < this.papers.length; i++){
-          console.log(i);
+          if (storyInfo == this.currentPaper.storyTitle){
 
-          if (storyInfo == this.papers[i].storyTitle){
-            this.currentPaper = this.papers[i];
-
-            var getStory = "";
+            storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
 
             if (storyInfo == this.papers[i].storyLink){
-              storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
+              storyInfo += '<a>' + this.currentPaper.storyLink + '</a>'
             }
-
+              document.getElementById("stories").innerHTML = paperInfo;
           }
-        }
+
 
       }
 
-      // this.filter = function(data){
-      //   for(var i in data){
-      //     data [i].date = new Date(
-      //       data[i].year,
-      //       (data[i].month -1),
-      //       data[i].day
-      //     ),
-      //   }
-      // }
+      //function for editor tab
+
+        this.editorInfo = function(){
+
+        if (editorInfo == this.currentPaper.editor){
+            editorInfo += '<h3>' + this.currentPaper.editor + '</h3>'
+          }
+
+          if (editorInfo == this.currentPaper.editorPic){
+              editorInfo += '<img src= "' + this.currentPaper.editorPic + '"/>'
+
+              if (editorInfo == this.currentPaper.imgCaption){
+                editorInfo += '<p>' + this.currentPaper.imgCaption + '</p>'
+              }
+                document.getElementById("editor").innerHTML = paperInfo;
+            }
+
+
+        }
+
+
 }]);
