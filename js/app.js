@@ -5,7 +5,7 @@ app.controller('BaseController', ['$http', function($http) {
     this.papers = [];
     var _this = this;
 
-    $http.get('/js/data.json')
+    $http.get('js/data.json')
       .success(function(data){
         console.log(data);
         _this.papers = data;
