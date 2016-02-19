@@ -1,7 +1,17 @@
 /*this is a custom css stylesheet*/
+@media screen and (max-width: 1024px) {
+    .intro-desktop {
+        display: none !important;
+    }
+}
+.intro-desktop{
+  text-align: center;
+  margin-top: 5%;
+  padding: 1em;
+}
+
 .element.style{
   font-size: 3em;
-
 }
 
 .front-img{
@@ -39,4 +49,10 @@
 }
 .glyphicon-menu-down{
   float: right;
+}
+.accordion-content{
+  text-align: center;
+}
+.accordion-toggle{
+  text-align: center;
 }
