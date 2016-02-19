@@ -64,7 +64,7 @@ app.controller('BaseController', ['$http', function($http) {
 
           if(this.papers[i].bio !== undefined){
 
-            paperInfo += '<p>' + this.currentPaper.bio + '</p>'
+            paperInfo += '<p class="paper-bio">' + this.currentPaper.bio + '</p>'
 
           }
 
@@ -88,7 +88,7 @@ app.controller('BaseController', ['$http', function($http) {
             // storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
 
             if (this.papers[i].storyLink !== undefined){
-              storyInfo += '<a href="' + this.currentPaper.storyLink + '">' + this.currentPaper.storyTitle + '</a>';
+              storyInfo += '<a  class="story-link" href="' + this.currentPaper.storyLink + '">' + this.currentPaper.storyTitle + '</a>';
 
             }
               document.getElementById("stories").innerHTML = storyInfo;
@@ -113,7 +113,7 @@ app.controller('BaseController', ['$http', function($http) {
           }
 
           if (this.currentPaper.imgCaption !== undefined){
-            editorInfo += '<p>' + this.currentPaper.imgCaption + '</p>';
+            editorInfo += '<p class="editor-caption">' + this.currentPaper.imgCaption + '</p>';
           }
 
           document.getElementById("editor").innerHTML = editorInfo;
