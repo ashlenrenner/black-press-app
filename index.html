@@ -34,15 +34,16 @@
 <body ng-app="myApp">
 
 <!-- Navbar -->
-  <nav class="navbar navbar-full navbar-light bg-faded">
-    <div class="container-fluid">
+
+  <nav class="navbar navbar-default ">
+    <div class="navbar-header">
       <a class="navbar-brand" href="#">The Black Press</a>
+    </div>
       <div class="col-sm-3 col-md-3 pull-right">
         <form class="navbar-form" role="search">
             <input type="text" ng-model="searchTerm" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
         </form>
         </div>
-    </div>
   </nav>
 
 <!-- Container -->
@@ -151,7 +152,7 @@
 <!-- Timeline -->
     <div class="row">
       <hr class="divider"></hr>
-      <div class=" col-md-12 col-sm-12">
+      <div class=" container-fluid">
         <center><h3 class="title">Black History Timeline</h3></center>
           <center><p class="intro-text">Click or swipe through the timeline to learn more about black history.</p></center>
                 <section class="cd-horizontal-timeline">
