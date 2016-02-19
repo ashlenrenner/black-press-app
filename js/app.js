@@ -88,7 +88,7 @@ app.controller('BaseController', ['$http', function($http) {
             // storyInfo += '<p>' + this.papers[i].storyTitle + '</p>'
 
             if (this.papers[i].storyLink !== undefined){
-              storyInfo += '<a href="' + this.currentPaper.storyLink + '>' + this.currentPaper.storyTitle + '</a>';
+              storyInfo += '<a href="' + this.currentPaper.storyLink + '">' + this.currentPaper.storyTitle + '</a>';
 
             }
               document.getElementById("stories").innerHTML = storyInfo;
