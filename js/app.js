@@ -54,7 +54,7 @@ app.controller('BaseController', ['$http', function($http) {
           this.currentPaper = this.papers[i];
           var paperInfo = "";
 
-          paperInfo += '<h3>' + this.currentPaper.name + '</h3>';
+          paperInfo += '<h3 class="title">' + this.currentPaper.name + '</h3>';
 
           if(this.papers[i].images.generalPic !== undefined){
 
@@ -103,7 +103,7 @@ app.controller('BaseController', ['$http', function($http) {
           var editorInfo = "";
 
           if (this.currentPaper.editor !== undefined){
-            editorInfo += '<h3>' + this.currentPaper.editor + '</h3>';
+            editorInfo += '<h3 class="title">' + this.currentPaper.editor + '</h3>';
           }if (this.currentPaper.editor == ""){
             editorInfo += '<p> The editor of ' + this.currentPaper.name + ' is unknown. </p>';
           }

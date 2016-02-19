@@ -2,9 +2,10 @@
 <html>
 <head>
   <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Custom CSS -->
       <link href="css/styles.css" rel="stylesheet" type="text/css" />
+      <link href='https://fonts.googleapis.com/css?family=Noto+Serif|Alegreya+Sans' rel='stylesheet' type='text/css'>
 <!-- Boostrap  -->
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
       <script src="js/bootstrap.min.js"></script>
@@ -23,22 +24,45 @@
       <link href="css/timeline.css" rel="stylesheet" type="text/css" />
       <link href="css/reset.css" rel="stylesheet" type="text/css" />
 
-
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+
   <title>Black Press</title>
+
 </head>
 
 <body ng-app="myApp">
+
+<!-- Navbar -->
+  <nav class="navbar navbar-full navbar-light bg-faded">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">The Black Press</a>
+      <div class="col-sm-3 col-md-3 pull-right">
+        <form class="navbar-form" role="search">
+            <input type="text" ng-model="searchTerm" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+        </form>
+        </div>
+    </div>
+  </nav>
+
+<!-- Container -->
   <div class="container" ng-controller="BaseController as base">
 
-    <!-- Intro for desktop -->
+<!-- Intro for desktop -->
       <div class="intro-desktop">
-        <p>During a time African-Americans had little to no rights in the U.S., abolitionist and civil rights organizations of the Antebellum and Reconstruction eras created newspapers to promote their cause.</p>
-          <p>Newspapers established by black freedmen began to form in the North and spreading across the country throughout the 19th century. These newspapers highlighted black politics, art, literature and accomplishments not covered in mainstream media.</p>
-        <p>Despite many attempts by the white media to silence them, black communities used newspapers as an outlet of pride. This site provides information about the first newspapers developed by African Americans and abolitionists.</p>
+        <h2 class="title"> The Black Press </h2>
+        <div class="intro-text">
+            <p>
+              During a time African-Americans had little to no rights in the U.S., abolitionist and civil rights organizations of the Antebellum and Reconstruction eras created newspapers to promote their cause.
+              Newspapers established by black freedmen began to form in the North and spreading across the country throughout the 19th century.
+            </p>
+            <p>
+              These newspapers highlighted black politics, art, literature and accomplishments not covered in mainstream media.
+              Despite many attempts by the white media to silence them, black communities used newspapers as an outlet of pride. This site provides information about the first newspapers developed by African Americans and abolitionists.</p>
+            </p>
+        </div>
       </div>
+
 
   <!-- intro for mobile -->
         <div id="accordion-mobile">
@@ -47,8 +71,8 @@
                 <div class="panel panel-default">
                 <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
                   <h4 class="panel-title">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                       Introduction
+                    <a class="accordion-toggle title" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                       The Black Press
                      </a><span class="glyphicon glyphicon-menu-down"></span>
                    </h4>
                  </div>
@@ -67,98 +91,90 @@
     </div> <!--intro end accordion mobile-- >
 
 <!-- Nav tabs -->
-<div class="row">
- <div class="col-md-12">
+<div class="row-fluid">
+ <div class="col-md-6 nav-center">
     <ul class="nav nav-tabs" role="tablist">
-      <li class="active">
-          <a href="#paperInfo" role="tab" data-toggle="tab">
-               Profile
-          </a>
-      </li>
-      <li>
-          <a href="#editor" role="tab" data-toggle="tab">
-              Editor
-          </a>
-      </li>
-      <li>
-          <a href="#stories" role="tab" data-toggle="tab">
-              Stories
-          </a>
-      </li>
+        <li class="active">
+            <a class="title" href="#paperInfo" role="tab" data-toggle="tab"> Profile </a>
+        </li>
+          <li>
+              <a class="title" href="#editor" role="tab" data-toggle="tab"> Editor </a>
+          </li>
+        <li>
+            <a class="title" href="#stories" role="tab" data-toggle="tab"> Stories </a>
+        </li>
     </ul>
 
 <!-- Tab panes -->
     <div class="tab-content" >
-      <div class="tab-pane fade active in" id="paperInfo" id="profile">
-
-      </div>
-      <div class="tab-pane fade" id="editor">
-
-      </div>
-      <div class="tab-pane fade" id="stories">
-
-      </div>
+      <div class="tab-pane fade active in" id="paperInfo" id="profile"></div>
+      <div class="tab-pane fade" id="editor"></div>
+      <div class="tab-pane fade" id="stories"></div>
     </div> <!-- closes panes -->
-  </div> <!-- col -->
-</div> <!-- row -->
 
+  </div> <!-- col -->
+
+</div> <!-- row -->
+  <!-- <hr class="divider"></hr> -->
 
 <!-- Search -->
-<div class="row">
-  <div class="col-md-3 col-sm-3">
-    <input type="text" ng-model="searchTerm" class="form-control" placeholder="Search" />
+  <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <input type="text" ng-model="searchTerm" class="form-control" placeholder="Search" />
+      </div>
   </div>
-</div>
 <!-- Table -->
-    <table class="table" >
+    <table class="table table-striped table-hover" >
       <thead>
         <tr>
-          <th ng-click = "base.setSort('name')"><a href="#"> Name </a></th>
-          <th ng-click = "base.setSort('location')"><a href="#">Located</a></th>
-          <th ng-click = "base.setSort('numOfIssues')"><a href="#">Number of Issues</a></th>
-          <th ng-click = "base.setSort('startDate')"><a href="#">Established</a></th>
-          <th ng-click = "base.setSort('endDate')"><a href="#">Ended</a></th>
+            <th ng-click = "base.setSort('name')"><a href="#" class="table-head"> Name </a></th>
+            <th ng-click = "base.setSort('location')"><a href="#" class="table-head">Located</a></th>
+            <th ng-click = "base.setSort('numOfIssues')"><a href="#" class="table-head">Number of Issues</a></th>
+            <th ng-click = "base.setSort('startDate')"><a href="#" class="table-head">Established</a></th>
+            <th ng-click = "base.setSort('endDate')"><a href="#" class="table-head">Ended</a></th>
         </tr>
       </thead>
       <tbody ng-repeat= "data in base.papers | orderBy:base.sort:base.reverse | filter:searchTerm">
           <tr>
              <td ng-click="base.panelInfo(data.name)"><a class="paper-link" href="#"> {{ data.name }}</a></td>
-            <td>{{ data.location }}</td>
-            <td>{{ data.numOfIssues}}</td>
-            <td>{{ data.startDate }}</td>
-            <td> {{data.endDate}}</td>
-            <!-- <td> <img src= "{{data.images.generalPic}}" /></td> -->
+            <td class="table-body">{{ data.location }}</td>
+            <td class="table-body">{{ data.numOfIssues}}</td>
+            <td class="table-body">{{ data.startDate }}</td>
+            <td class="table-body"> {{data.endDate}}</td>
           </tr>
       </tbody>
     </table>
+    <hr class="divider"></hr>
 
-    <!-- Timeline -->
+<!-- Timeline -->
     <div class="row">
-    <div class=" col-md-12">
-    <section class="cd-horizontal-timeline">
-    	<div class="timeline">
-    		<div class="events-wrapper">
-    			<div class="events">
-    				<ol>
-    					<li><a href="#0" data-date="28/02/1827" class="selected">1827</a></li>
-              <li><a href="#0" data-date="28/02/1830">1831</a></li>
-              <li><a href="#0" data-date="28/02/1836">1836</a></li>
-              <li><a href="#0" data-date="28/02/1842">1842</a></li>
-              <li><a href="#0" data-date="28/02/1847">1847</a></li>
-              <li><a href="#0" data-date="28/02/1849">1850</a></li>
-              <li><a href="#0" data-date="28/02/1852">1852</a></li>
-              <li><a href="#0" data-date="28/02/1860">1860</a></li>
-              <li><a href="#0" data-date="28/02/1861">1861-1865</a></li>
-              <li><a href="#0" data-date="28/12/1862">1862</a></li>
-              <li><a href="#0" data-date="28/12/1865">1865</a></li>
-              <li><a href="#0" data-date="28/12/1866">1866</a></li>
-              <li><a href="#0" data-date="28/12/1870">1870</a></li>
-              <li><a href="#0" data-date="28/12/1875">1875</a></li>
-              <li><a href="#0" data-date="28/12/1877">1877</a></li>
+      <div class=" col-md-12">
 
-    				</ol>
+        <section class="cd-horizontal-timeline">
+          <div class="timeline">
+        		<div class="events-wrapper">
+        			<div class="events">
+        				<ol>
 
-    				<span class="filling-line" aria-hidden="true"></span>
+                  <li><a href="#0" data-date="28/02/1827" class="selected">1827</a></li>
+                  <li><a href="#0" data-date="28/02/1830">1831</a></li>
+                  <li><a href="#0" data-date="28/02/1836">1836</a></li>
+                  <li><a href="#0" data-date="28/02/1842">1842</a></li>
+                  <li><a href="#0" data-date="28/02/1847">1847</a></li>
+                  <li><a href="#0" data-date="28/02/1849">1850</a></li>
+                  <li><a href="#0" data-date="28/02/1852">1852</a></li>
+                  <li><a href="#0" data-date="28/02/1860">1860</a></li>
+                  <li><a href="#0" data-date="28/02/1861">1861-1865</a></li>
+                  <li><a href="#0" data-date="28/12/1862">1862</a></li>
+                  <li><a href="#0" data-date="28/12/1865">1865</a></li>
+                  <li><a href="#0" data-date="28/12/1866">1866</a></li>
+                  <li><a href="#0" data-date="28/12/1870">1870</a></li>
+                  <li><a href="#0" data-date="28/12/1875">1875</a></li>
+                  <li><a href="#0" data-date="28/12/1877">1877</a></li>
+
+        				</ol>
+
+        				<span class="filling-line" aria-hidden="true"></span>
     			</div> <!-- .events -->
     		</div> <!-- .events-wrapper -->
 

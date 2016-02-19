@@ -1,4 +1,29 @@
 /*this is a custom css stylesheet*/
+p, a{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+h3, h4{
+  font-family: 'Noto Serif', serif;
+}
+.title{
+  font-family: 'Noto Serif', serif;
+}
+
+.navbar{
+  background-color: #383838;
+}
+.navbar-brand{
+  color: #f8f8f8;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+    .navbar-form {
+        display: none !important;
+
+    }
+}
+
+/*intro for desktop*/
 @media screen and (max-width: 1024px) {
     .intro-desktop {
         display: none !important;
@@ -6,45 +31,23 @@
 }
 .intro-desktop{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 1em;
 }
-
-.element.style{
-  font-size: 3em;
+.intro-text{
+  font-size: 130%;
 }
-
-.front-img{
-  max-height: 300px;
-  margin: 1em;
-  padding: 2em;
-  align-items: center;
-}
-
-.paper-link{
-  font-weight: bold;
-  text-decoration: none;
-}
-.paper-link:hover, .paper-link:active{
-  font-weight: bold;
-  text-decoration: none;
-  color: gray;
-}
-
-.form-control.style, .textarea, .input{
-  float: right;
-  border-radius: 10px;
-  background-color: red;
-}
-/*intro accordion mobile*/
+/*intro accordion for mobile*/
 
 #accordion-mobile .panel-default .panel-heading{
   background-color: #f8f8f8;
   width: 100%;
+
 }
 @media screen and (min-width: 1024px) {
     #accordion-mobile {
         display: none !important;
+
     }
 }
 .glyphicon-menu-down{
@@ -55,4 +58,62 @@
 }
 .accordion-toggle{
   text-align: center;
+}
+
+/*styling for newspaper panel*/
+.nav-center {
+  text-align: center;
+  ul.nav {
+    display: inline-block;
+    li {
+      display: inline;
+      a {
+        float: left;
+
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+    .nav-center {
+        margin-left: 25%;
+    }
+}
+
+.front-img{
+  max-height: 300px;
+  margin: 1em;
+  padding: 1em;
+  align-items: center;
+}
+
+/*styles for table*/
+.table-head{
+  font-family: 'Noto Serif', serif;
+  font-size: 100%;
+}
+.paper-link{
+    font-family: 'Alegreya Sans', sans-serif;
+  text-decoration: none;
+}
+.paper-link:hover, .paper-link:active{
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+}
+.table-body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+hr.divider{
+  margin-top: 5%;
+  border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
+}
+
+/*Search bar*/
+.form-control.style, .textarea, .input{
+  float: right;
+  border-radius: 10px;
 }
